@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" width="100%" height="100%">
+  <defs>
+    <linearGradient id="warmBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1E1B18"/>
+      <stop offset="50%" stop-color="#181310"/>
+      <stop offset="100%" stop-color="#0E0D0C"/>
+    </linearGradient>
+    <radialGradient id="hearth" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#F59E0B" stop-opacity="0.3"/>
+      <stop offset="100%" stop-color="#000000" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="600" height="400" rx="16" fill="url(#warmBg)" stroke="#443224" stroke-width="1.5"/>
+  <circle cx="300" cy="200" r="180" fill="url(#hearth)"/>
+
+  <!-- Vintage Photo Frame / Polaroid Effect -->
+  <g transform="translate(180, 75) rotate(-3)">
+    <rect x="0" y="0" width="240" height="250" rx="6" fill="#F8FAFC" filter="drop-shadow(0 15px 25px rgba(0,0,0,0.6))"/>
+    <rect x="15" y="15" width="210" height="175" rx="3" fill="#1E293B"/>
+    <!-- Scene inside photo: campfire / gathering under evening twilight -->
+    <path d="M15 140 Q60 120 120 150 Q180 120 225 140 L225 190 L15 190 Z" fill="#0F172A"/>
+    <!-- Firelight -->
+    <circle cx="120" cy="165" r="18" fill="#F59E0B" fill-opacity="0.6"/>
+    <circle cx="120" cy="165" r="8" fill="#FEF08A"/>
+    <text x="120" y="222" font-family="'Playfair Display', Georgia, serif" font-size="13" font-style="italic" fill="#334155" text-anchor="middle">"Summer reflections with mentors"</text>
+  </g>
+
+  <text x="300" y="45" font-family="'Playfair Display', Georgia, serif" font-size="18" font-weight="700" fill="#F1F5F9" text-anchor="middle" letter-spacing="1">CHERISHED MEMORIES &amp; ENCOUNTERS</text>
+  <text x="300" y="375" font-family="'JetBrains Mono', monospace" font-size="11" fill="#D97706" text-anchor="middle">[PHOTO ARCHIVE: TIMELESS EXPERIENCES &amp; CONNECTIONS]</text>
+</svg>

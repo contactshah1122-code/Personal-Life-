@@ -1,0 +1,6 @@
+{
+  "name": "Sawal Ahmed — Personal Life Archive",
+  "description": "The digital archive and personal life repository of Sawal Ahmed, chronicling roots, education, milestones, memories, growth, and future vision.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

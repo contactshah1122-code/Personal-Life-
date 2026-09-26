@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1E293B"/>
+      <stop offset="100%" stop-color="#0F172A"/>
+    </linearGradient>
+    <linearGradient id="treeGrad" x1="0%" y1="100%" x2="0%" y2="0%">
+      <stop offset="0%" stop-color="#78350F"/>
+      <stop offset="40%" stop-color="#D97706"/>
+      <stop offset="100%" stop-color="#FDE68A"/>
+    </linearGradient>
+  </defs>
+  <rect width="600" height="400" rx="16" fill="url(#bg)" stroke="#334155" stroke-width="1.5"/>
+  <circle cx="300" cy="180" r="130" fill="#D97706" fill-opacity="0.08"/>
+  <circle cx="300" cy="180" r="90" fill="#D97706" fill-opacity="0.12"/>
+  
+  <!-- Tree of Heritage and Roots -->
+  <path d="M280 340 L280 230 C270 200, 220 180, 180 170 C220 190, 240 220, 270 250 L270 340 Z" fill="url(#treeGrad)"/>
+  <path d="M320 340 L320 230 C330 200, 380 180, 420 170 C380 190, 360 220, 330 250 L330 340 Z" fill="url(#treeGrad)"/>
+  <path d="M290 340 L290 190 C290 150, 250 120, 220 100 C260 120, 280 150, 300 180 C320 150, 340 120, 380 100 C350 120, 310 150, 310 190 L310 340 Z" fill="url(#treeGrad)"/>
+  
+  <!-- Root network subterranean -->
+  <path d="M300 340 C280 365, 230 375, 170 370 M300 340 C320 365, 370 375, 430 370 M300 340 L300 385 M285 355 L240 380 M315 355 L360 380" stroke="#F59E0B" stroke-width="3" fill="none" stroke-linecap="round"/>
+
+  <!-- Glowing leaf/blossom nodes representing childhood memories -->
+  <circle cx="220" cy="100" r="7" fill="#FBBF24"/>
+  <circle cx="380" cy="100" r="7" fill="#FBBF24"/>
+  <circle cx="180" cy="170" r="6" fill="#FBBF24"/>
+  <circle cx="420" cy="170" r="6" fill="#FBBF24"/>
+  <circle cx="300" cy="80" r="8" fill="#FDE68A"/>
+  
+  <text x="300" y="50" font-family="'Playfair Display', Georgia, serif" font-size="18" font-weight="700" fill="#F1F5F9" text-anchor="middle" letter-spacing="1">ROOTS &amp; FOUNDATIONS</text>
+  <text x="300" y="380" font-family="'JetBrains Mono', monospace" font-size="11" fill="#94A3B8" text-anchor="middle">[ARCHIVE CHAPTER I: EARLY ORIGINS &amp; FAMILY TRADITIONS]</text>
+</svg>

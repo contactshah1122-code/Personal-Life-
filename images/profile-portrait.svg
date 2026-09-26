@@ -1,0 +1,82 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 600" width="100%" height="100%">
+  <defs>
+    <linearGradient id="pGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1E293B"/>
+      <stop offset="50%" stop-color="#0F172A"/>
+      <stop offset="100%" stop-color="#020617"/>
+    </linearGradient>
+    <linearGradient id="gold" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FBBF24"/>
+      <stop offset="50%" stop-color="#D97706"/>
+      <stop offset="100%" stop-color="#92400E"/>
+    </linearGradient>
+    <linearGradient id="cyan" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#38BDF8"/>
+      <stop offset="100%" stop-color="#0284C7"/>
+    </linearGradient>
+    <radialGradient id="halo" cx="50%" cy="35%" r="45%">
+      <stop offset="0%" stop-color="#F59E0B" stop-opacity="0.25"/>
+      <stop offset="100%" stop-color="#0F172A" stop-opacity="0"/>
+    </radialGradient>
+    <clipPath id="circleClip">
+      <circle cx="250" cy="220" r="140"/>
+    </clipPath>
+  </defs>
+  <rect width="500" height="600" rx="24" fill="url(#pGrad)" stroke="#334155" stroke-width="2"/>
+  <circle cx="250" cy="220" r="170" fill="url(#halo)"/>
+  
+  <!-- Outer Archival Ring -->
+  <circle cx="250" cy="220" r="148" fill="none" stroke="url(#gold)" stroke-width="2" stroke-dasharray="8 6"/>
+  <circle cx="250" cy="220" r="140" fill="#131B2E"/>
+
+  <!-- Stylized Figure / Portrait Silhouette -->
+  <g clip-path="url(#circleClip)">
+    <circle cx="250" cy="220" r="140" fill="#0D1527"/>
+    <!-- Backdrop constellation nodes -->
+    <path d="M150 150 L200 180 L280 140 L350 200" stroke="#334155" stroke-width="1.5" fill="none"/>
+    <circle cx="150" cy="150" r="3" fill="#FBBF24"/>
+    <circle cx="200" cy="180" r="3" fill="#FBBF24"/>
+    <circle cx="280" cy="140" r="3" fill="#FBBF24"/>
+    <circle cx="350" cy="200" r="3" fill="#FBBF24"/>
+
+    <!-- Head & Shoulders Silhouette -->
+    <path d="M140 360 C150 280, 200 270, 250 270 C300 270, 350 280, 360 360 Z" fill="#1E293B" stroke="url(#gold)" stroke-width="1.5"/>
+    <circle cx="250" cy="200" r="54" fill="#334155" stroke="url(#gold)" stroke-width="2"/>
+    <!-- Stylized hair/features -->
+    <path d="M210 185 C220 160, 280 160, 290 185 C285 170, 230 168, 210 185 Z" fill="#0F172A"/>
+    <!-- Glasses / Modern Archival look -->
+    <rect x="222" y="192" width="22" height="14" rx="3" fill="none" stroke="url(#gold)" stroke-width="2"/>
+    <rect x="256" y="192" width="22" height="14" rx="3" fill="none" stroke="url(#gold)" stroke-width="2"/>
+    <line x1="244" y1="198" x2="256" y2="198" stroke="url(#gold)" stroke-width="2"/>
+    <!-- Collar & Tie/Lapel -->
+    <polygon points="250,270 240,310 260,310" fill="url(#gold)"/>
+  </g>
+
+  <!-- Archival Monogram Badge -->
+  <circle cx="250" cy="355" r="28" fill="#0B1120" stroke="url(#gold)" stroke-width="2"/>
+  <text x="250" y="364" font-family="'Playfair Display', Georgia, serif" font-size="20" font-weight="700" fill="url(#gold)" text-anchor="middle">SA</text>
+
+  <!-- Title & Card text -->
+  <text x="250" y="420" font-family="'Playfair Display', Georgia, serif" font-size="28" font-weight="700" fill="#F8FAFC" text-anchor="middle">Sawal Ahmed</text>
+  <text x="250" y="445" font-family="'Plus Jakarta Sans', sans-serif" font-size="13" font-weight="600" fill="#F59E0B" text-anchor="middle" letter-spacing="2">PERSONAL LIFE ARCHIVE</text>
+  <text x="250" y="475" font-family="'Plus Jakarta Sans', sans-serif" font-size="14" fill="#94A3B8" text-anchor="middle">Technologist • Chronicler • Lifelong Learner</text>
+
+  <!-- Divider & Badges -->
+  <line x1="80" y1="505" x2="420" y2="505" stroke="#334155" stroke-width="1"/>
+  
+  <g transform="translate(65, 525)">
+    <rect x="0" y="0" width="110" height="42" rx="8" fill="#1E293B" stroke="#334155"/>
+    <text x="55" y="18" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" fill="#94A3B8" text-anchor="middle">FOUNDATION</text>
+    <text x="55" y="33" font-family="'Plus Jakarta Sans', sans-serif" font-size="12" font-weight="600" fill="#F8FAFC" text-anchor="middle">Deep Roots</text>
+  </g>
+  <g transform="translate(195, 525)">
+    <rect x="0" y="0" width="110" height="42" rx="8" fill="#1E293B" stroke="#334155"/>
+    <text x="55" y="18" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" fill="#94A3B8" text-anchor="middle">STATUS</text>
+    <text x="55" y="33" font-family="'Plus Jakarta Sans', sans-serif" font-size="12" font-weight="600" fill="#10B981" text-anchor="middle">Active Journey</text>
+  </g>
+  <g transform="translate(325, 525)">
+    <rect x="0" y="0" width="110" height="42" rx="8" fill="#1E293B" stroke="#334155"/>
+    <text x="55" y="18" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" fill="#94A3B8" text-anchor="middle">ARCHIVE REF</text>
+    <text x="55" y="33" font-family="'Plus Jakarta Sans', sans-serif" font-size="12" font-weight="600" fill="#F59E0B" text-anchor="middle">VOL. 01</text>
+  </g>
+</svg>

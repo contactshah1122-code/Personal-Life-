@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0F172A"/>
+      <stop offset="100%" stop-color="#1E293B"/>
+    </linearGradient>
+    <linearGradient id="gold" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FDE68A"/>
+      <stop offset="50%" stop-color="#F59E0B"/>
+      <stop offset="100%" stop-color="#B45309"/>
+    </linearGradient>
+  </defs>
+  <rect width="600" height="400" rx="16" fill="url(#bg)" stroke="#334155" stroke-width="1.5"/>
+
+  <!-- Academic Crest / Columns & Knowledge Lamp -->
+  <g transform="translate(180, 80)">
+    <!-- Classical temple / academy columns -->
+    <rect x="0" y="190" width="240" height="15" rx="3" fill="#334155"/>
+    <rect x="15" y="180" width="210" height="10" rx="2" fill="#475569"/>
+    <!-- Columns -->
+    <rect x="25" y="60" width="22" height="120" rx="3" fill="#1E293B" stroke="url(#gold)" stroke-width="1.5"/>
+    <rect x="75" y="60" width="22" height="120" rx="3" fill="#1E293B" stroke="url(#gold)" stroke-width="1.5"/>
+    <rect x="143" y="60" width="22" height="120" rx="3" fill="#1E293B" stroke="url(#gold)" stroke-width="1.5"/>
+    <rect x="193" y="60" width="22" height="120" rx="3" fill="#1E293B" stroke="url(#gold)" stroke-width="1.5"/>
+    <!-- Pediment -->
+    <polygon points="0,60 120,10 240,60" fill="#1E293B" stroke="url(#gold)" stroke-width="2"/>
+    <circle cx="120" cy="40" r="14" fill="#0F172A" stroke="url(#gold)" stroke-width="1.5"/>
+    <!-- Laurel Wreath & Quill -->
+    <path d="M115 35 Q120 28 125 35 Q120 48 115 35" fill="url(#gold)"/>
+    <polygon points="120,75 100,85 140,85" fill="#334155"/>
+  </g>
+
+  <!-- Open Book & Mortarboard -->
+  <g transform="translate(240, 260)">
+    <path d="M60 40 Q25 25 0 35 L0 65 Q25 55 60 70 Q95 55 120 65 L120 35 Q95 25 60 40 Z" fill="#0F172A" stroke="url(#gold)" stroke-width="2"/>
+    <line x1="60" y1="40" x2="60" y2="70" stroke="url(#gold)" stroke-width="1.5"/>
+  </g>
+
+  <text x="300" y="55" font-family="'Playfair Display', Georgia, serif" font-size="18" font-weight="700" fill="#F1F5F9" text-anchor="middle" letter-spacing="1">ACADEMIC EXCELLENCE &amp; SCHOLARSHIP</text>
+  <text x="300" y="375" font-family="'JetBrains Mono', monospace" font-size="11" fill="#94A3B8" text-anchor="middle">[ARCHIVE CHAPTER II: DEGREE, RESEARCH &amp; INTELLECTUAL PURSUIT]</text>
+</svg>
